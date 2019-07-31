@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "window": true,
+    "process": true,
+  },
+  "rules": {
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "react/jsx-filename-extension": 0,
+    "linebreak-style": 0,
+    "react/sort-comp": 1,
+    "class-methods-use-this": 0,
+    "react/destructuring-assignment": 1,
+    "react/prop-types": 1,
+    "react/prefer-stateless-function": 0,
+  }
+}
